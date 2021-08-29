@@ -16,7 +16,11 @@
 
 // modules Node JS 
 
-const name_list = require("./module-name-list")
-const name = require("./module-name")
+// const name_list = require("./module-name-list")
+// const name = require("./module-name")
 
-name(name_list[1])
+// name(name_list[1])
+
+const naruto = require("./module-name-list")
+console.log(naruto.0)
+
